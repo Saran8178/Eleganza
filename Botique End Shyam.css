@@ -1,0 +1,70 @@
+/* CSS for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.align {
+    margin: 0;
+    padding-left: 50px;
+}
+
+.confirm {
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 20px;
+}
+
+.src {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+    width: 500px;
+    height: 100px;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.src img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.src p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icons img {
+    width: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+}

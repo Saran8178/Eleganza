@@ -1,0 +1,111 @@
+
+form{border-radius: 20px;border-color: gray; width: fit-content;margin-left: 450px; border-width: 25px;border-style: groove;}
+body{background-color: white;background-image: url("https://tse2.mm.bing.net/th?id=OIP.JoGjPwNYIkAQA-6DBeTkgAHaEK&pid=Api&P=0&h=180");background-repeat: no-repeat;background-size: cover;}
+
+h2{ text-align: center;}
+h2{ text-underline-position: auto;}
+
+h1{text-align: center;}
+
+.form-control{
+  margin-bottom: 10px;
+      padding-bottom: 10px;
+}
+.form-control label {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(100, 100, 100, 1);
+   
+  
+  }
+  
+  .form-control input {
+    margin-top: 6px;
+    background-color: rgba(241, 241, 241, 1);
+    display: block;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 15px;
+    width: 325px;
+  }
+  
+  .form-control input::placeholder {
+    color: rgba(187, 187, 187, 1);
+    font-size: 14px;
+    font-weight: 200;
+  }
+  form {
+    border: none; /* Remove border */
+    width: fit-content;
+    margin-left: 450px;
+ 
+  }
+  
+  button[type="submit"] {
+    width: 200px; /* Increase width of the button */
+    background-color: rgb(134, 243, 134);
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-family: cursive;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #8cf38a; /* Darker shade of green on hover */
+  }
+  .layout{
+    padding-top: 70px;
+    
+
+ 
+    
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+    
+  }
+  
+  .button {
+    margin-bottom: 6px;
+    display: block;
+    color: aliceblue;
+    background: #6133c5;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 11px;
+    border: none;
+    width: 270px;
+    height: 45px;
+    cursor: pointer;
+    
+  }
+  .buttoncontrol{
+    padding-left: 550px;
+  }
+  .checkbox {
+    display: flex;
+    cursor: pointer;
+    padding-left: 450px;
+    padding-top: 10px;
+  }
+  .pass-esq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  .design{
+    color: black;
+  }
+  .arrange{
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    /* background-color:whitesmoke; */
+    backdrop-filter: blur(20px);
+  }
+  
